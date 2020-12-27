@@ -1,0 +1,85 @@
+body {
+    background-color : aquamarine;  
+    position: relative;
+}
+
+header {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(102, 17, 5);
+    font-family: 'Russo One', sans-serif;
+    font-weight: 400;
+}
+
+#time {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(102, 17, 5);
+    font-family: 'Russo One', sans-serif;
+    font-weight: 400;
+}
+
+#image{
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 350px;
+    background-image:url("https://source.unsplash.com/random/500x350")  ;
+    position: relative;
+    
+}
+
+#text{
+    font-size: 30px;
+    font-family: 'Russo One', sans-serif;
+    font-weight: 600;
+    color: maroon;
+    text-align: center;
+    position: absolute;
+    left: 25%;
+    bottom: 0;
+    
+}
+
+#selection{
+    position: absolute;
+    left: 37%;
+}
+
+#selectring{
+    font-size: larger;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#wakeUpRing{
+    height: 30px;
+    margin-left: 10px;
+
+}
+
+#wakeUpRing option{
+    font-size: 20px;
+}
+
+#container{
+    position: absolute;
+    top: 105%;
+    left: 40%;
+}
+#playing{
+   height: 30px;
+   font-size: 200;
+   font-weight: 900;
+   margin: 10px 0;
+}
+
+#songs{
+    clear: both;
+}
+
+#Apple,#Oneplus,#Nokia,#HeroHonda{
+    display: none;
+}
